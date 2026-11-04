@@ -101,11 +101,4 @@ def FuzzySearchPatient(Query, index_patients, Threshold=0.3):
     Results.sort(reverse=True)
 
     return Results
-
-
-
-
-
-
-#when ordering it it needs to look at beginning letters instead of just any letter in the string, TAKE first instead of all 
-#then this lists them in order from most accurate then to least, CHANGE the FSP of ranking scores
+    
